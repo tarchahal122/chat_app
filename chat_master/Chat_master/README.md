@@ -1,14 +1,14 @@
 # Chat App Server
 
-This is the server-side code for a chat application built with Node.js, Express, Socket.IO, and MongoDB. The application allows users to register, log in, update their status (available or busy), send messages to other users, and receive messages from the server via Socket.IO.
+This repository contains the server-side code for a chat application developed using Node.js, Express, Socket.IO, and MongoDB. The application enables users to register, authenticate, update their status (available or busy), send messages to other users, and receive real-time messages via Socket.IO.
 
 ## Features
 
-- User registration and authentication with JWT
-- User status management (available or busy)
-- Sending and receiving messages between users
-- Integration with a large language model (LLM) for automated responses when a user is busy
-- Real-time messaging with Socket.IO
+-User registration and authentication using JWT tokens
+-User status management (available or busy)
+-Real-time messaging functionality for seamless communication
+-Integration with a sophisticated language model (LLM) for automated responses when users are unavailable
+-Utilization of Socket.IO for efficient and responsive real-time messaging
 
 ## Prerequisites
 
