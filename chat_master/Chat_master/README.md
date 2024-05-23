@@ -4,11 +4,11 @@ This repository contains the server-side code for a chat application developed u
 
 ## Features
 
--User registration and authentication using JWT tokens
--User status management (available or busy)
--Real-time messaging functionality for seamless communication
--Integration with a sophisticated language model (LLM) for automated responses when users are unavailable
--Utilization of Socket.IO for efficient and responsive real-time messaging
+- User registration and authentication using JWT tokens
+- User status management (available or busy)
+- Real-time messaging functionality for seamless communication
+- Integration with a sophisticated language model (LLM) for automated responses when users are unavailable
+- Utilization of Socket.IO for efficient and responsive real-time messaging
 
 ## Prerequisites
 
