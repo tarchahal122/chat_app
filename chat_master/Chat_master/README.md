@@ -59,13 +59,13 @@ The server will start running on `http://localhost:5000`.
 
 ### Interact with the API endpoints using tools like Postman or cURL:
 
-`POST /register`: Register a new user
-`POST /login`: Log in and receive a JWT token
-`PUT /status`: Update user status (authentication required)
-`POST /messages`: Send a message to another user (authentication required)
+- `POST /register`: Register a new user
+- `POST /login`: Log in and receive a JWT token
+- `PUT /status`: Update user status (authentication required)
+- `POST /messages`: Send a message to another user (authentication required)
 `GET /messages/:recipientId`: Retrieve messages with a specific recipient (authentication required)
 
 ### For real-time messaging, connect to the Socket.IO server using the socket.io-client library in your client application. Use the following events:
-`join`: Join a user's room
-`message`: Receive new messages from other users
+- `join`: Join a user's room
+- `message`: Receive new messages from other users
 
